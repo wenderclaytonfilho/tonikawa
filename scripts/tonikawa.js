@@ -7,7 +7,9 @@ episodes = [`<iframe src="https://drive.google.com/file/d/1mw4D2bPKksU3bmHcFkNDU
 	`<iframe src="https://drive.google.com/file/d/1gX8Cm8yx_god2oDqM7Ickh3NMIWR5f6l/preview" width="360" height="280" allow="autoplay" allowfullscreen></iframe>`,
 	`<iframe src="https://drive.google.com/file/d/1U7K43VRcolZgwK8x6yu_MIHLSHKFFPVc/preview" width="360" height="280" allow="autoplay" allowfullscreen></iframe>`,
 	`<iframe src="https://drive.google.com/file/d/1U7K43VRcolZgwK8x6yu_MIHLSHKFFPVc/preview" width="360" height="280" allow="autoplay" allowfullscreen></iframe>`,
-	`<iframe src="https://drive.google.com/file/d/1upIQzNEpNnP33_aTpfC7c_3m7NCAPfCY/preview" width="360" height="280" allow="autoplay" allowfullscreen></iframe>`
+	`<iframe src="https://drive.google.com/file/d/1upIQzNEpNnP33_aTpfC7c_3m7NCAPfCY/preview" width="360" height="280" allow="autoplay" allowfullscreen></iframe>`,
+	``,
+	``
 
 
 ];
@@ -15,9 +17,6 @@ episodes = [`<iframe src="https://drive.google.com/file/d/1mw4D2bPKksU3bmHcFkNDU
 var player = document.getElementById("player");
 
 function redirect(episode){
-	//if(episode == 0){
-	//	player.innerHTML=episodes[0];
-	//}
 	switch(episode){
 		case 0:
 			player.innerHTML=episodes[0];
@@ -48,7 +47,13 @@ function redirect(episode){
 			break;
 		case 9:
 			player.innerHTML=episodes[9];
-			break
+			break;
+		case 10:
+			player.innerHTML=episodes[10];
+			break;
+		case 11:
+			player.innerHTML=episodes[11];
+			break;
 	}
 }
 
