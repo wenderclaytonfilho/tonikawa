@@ -17,3 +17,11 @@ div.player{
 	justify-content: center;
 	padding: 5px;
 }
+
+@media (max-width: 640px){
+	iframe{
+		width: 320px;
+		height: 240px;
+	}
+
+}
